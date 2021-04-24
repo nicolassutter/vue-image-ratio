@@ -1,6 +1,6 @@
 {
   "name": "vue-image-ratio",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Small Vue.js component using a CSS `padding-bottom` hack for 16/9 images.",
   "main": "dist/vue-image-ratio.ssr.js",
   "browser": "dist/vue-image-ratio.esm.js",

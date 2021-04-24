@@ -5,6 +5,7 @@ Small Vue.js component using a CSS `padding-bottom` hack for 16/9 images.
 ## The component
 
 The component can be use like so:
+
 ```vue
 <vue-image-ratio
   :attrs="{

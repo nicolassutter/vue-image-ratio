@@ -2,20 +2,40 @@
 
 Small Vue.js component using a CSS `padding-bottom` hack for 16/9 images.
 
+## Installation
+
+```sh
+npm i vue-image-ratio --save
+```
+
 ## The component
 
 The component can be use like so:
 
 ```vue
-<vue-image-ratio
-  :attrs="{
-    src: 'https://doge.com/doge.png',
-    alt: 'Doge',
-    class: 'rounded'
-  }"
->
-  <figcaption>Doge</figcaption>
-</vue-image-ratio>
+<template>
+  <vue-image-ratio
+    :attrs="{
+      src: 'https://doge.com/doge.png',
+      alt: 'Doge',
+      class: 'rounded'
+    }"
+  >
+    <figcaption>Doge</figcaption>
+  </vue-image-ratio>
+</template>
+
+<script>
+import VueImageRatio from 'vue-image-ratio'
+
+export default {
+  ...,
+  components: {
+    ...,
+    VueImageRatio
+  }
+}
+</script>
 ```
 
 ## Props

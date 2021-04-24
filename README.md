@@ -2,6 +2,13 @@
 
 Small Vue.js component using a CSS `padding-bottom` hack for 16/9 images.
 
+## Compatibility
+
+| Vue Version | Support |
+--------------|---------|
+|2.x          | ❌      |
+|3.x          | ✅      |
+
 ## Installation
 
 ```sh

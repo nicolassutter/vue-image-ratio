@@ -68,8 +68,7 @@ export default defineComponent({
   width: 100%;
 }
 
-.vue-image-ratio-img
-.cover {
+.vue-image-ratio-img.cover {
   object-fit: cover;
 }
 </style>
